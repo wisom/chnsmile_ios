@@ -48,11 +48,6 @@ PODS:
     - SDWebImageWebPCoder
   - flutter_plugin_record (0.0.1):
     - Flutter
-  - flutter_sound (8.5.0):
-    - Flutter
-    - flutter_sound_core (= 8.5.0)
-    - mobile-ffmpeg-audio (= 4.4.LTS)
-  - flutter_sound_core (8.5.0)
   - FlutterPluginRegistrant (0.0.1):
     - audioplayers
     - file_picker
@@ -60,7 +55,6 @@ PODS:
     - flutter_boost
     - flutter_image_compress
     - flutter_plugin_record
-    - flutter_sound
     - fluttertoast
     - path_provider_foundation
     - shared_preferences_foundation
@@ -87,7 +81,6 @@ PODS:
     - Mantle/extobjc (= 2.2.0)
   - Mantle/extobjc (2.2.0)
   - MBProgressHUD (1.1.0)
-  - mobile-ffmpeg-audio (4.4.LTS)
   - Moya/Core (14.0.0-alpha.1):
     - Alamofire (~> 4.1)
     - Result (~> 4.1)
@@ -220,7 +213,6 @@ DEPENDENCIES:
   - flutter_boost (from `../chnsmile_flutter/.ios/.symlinks/plugins/flutter_boost/ios`)
   - flutter_image_compress (from `../chnsmile_flutter/.ios/.symlinks/plugins/flutter_image_compress/ios`)
   - flutter_plugin_record (from `../chnsmile_flutter/.ios/.symlinks/plugins/flutter_plugin_record/ios`)
-  - flutter_sound (from `../chnsmile_flutter/.ios/.symlinks/plugins/flutter_sound/ios`)
   - FlutterPluginRegistrant (from `../chnsmile_flutter/.ios/Flutter/FlutterPluginRegistrant`)
   - fluttertoast (from `../chnsmile_flutter/.ios/.symlinks/plugins/fluttertoast/ios`)
   - GTSDK
@@ -241,14 +233,12 @@ SPEC REPOS:
     - Alamofire
     - DKImagePickerController
     - DKPhotoGallery
-    - flutter_sound_core
     - FMDB
     - GTSDK
     - HandyJSON
     - libwebp
     - Mantle
     - MBProgressHUD
-    - mobile-ffmpeg-audio
     - Moya
     - ReactiveObjC
     - Result
@@ -278,8 +268,6 @@ EXTERNAL SOURCES:
     :path: "../chnsmile_flutter/.ios/.symlinks/plugins/flutter_image_compress/ios"
   flutter_plugin_record:
     :path: "../chnsmile_flutter/.ios/.symlinks/plugins/flutter_plugin_record/ios"
-  flutter_sound:
-    :path: "../chnsmile_flutter/.ios/.symlinks/plugins/flutter_sound/ios"
   FlutterPluginRegistrant:
     :path: "../chnsmile_flutter/.ios/Flutter/FlutterPluginRegistrant"
   fluttertoast:
@@ -310,9 +298,7 @@ SPEC CHECKSUMS:
   flutter_boost: 6a73c54e5654df180c2cc379045b8cba9746fc8a
   flutter_image_compress: 5a5e9aee05b6553048b8df1c3bc456d0afaac433
   flutter_plugin_record: 562ded56f3a109d769e72c3ef52ef20d835493d4
-  flutter_sound: ba7daf658dea78e9f18b79657338bfc222489f4f
-  flutter_sound_core: d9396f10752a0df9aa3197f4c431d62d934918cc
-  FlutterPluginRegistrant: 7be1ec273d0946bc92d60955f849b1d45d9c9429
+  FlutterPluginRegistrant: 0b6dc8e720da71d283b36720fb84ae52af7ade39
   fluttertoast: eb263d302cc92e04176c053d2385237e9f43fad0
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GTSDK: f28e6d575e8a1c26e331ce29b0ecac7db39679cc
@@ -320,7 +306,6 @@ SPEC CHECKSUMS:
   libwebp: f62cb61d0a484ba548448a4bd52aabf150ff6eef
   Mantle: c5aa8794a29a022dfbbfc9799af95f477a69b62d
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
-  mobile-ffmpeg-audio: 1e0a053f8a6de57114e50ff48b3a85ff1c60f902
   Moya: 65485239114b3b327a17dc2e839f6c8b7143aae9
   path_provider_foundation: c68054786f1b4f3343858c1e1d0caaded73f0be9
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
